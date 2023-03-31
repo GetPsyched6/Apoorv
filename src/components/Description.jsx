@@ -94,8 +94,8 @@ const Description = () => {
             <div className={styles.main_div}>
                 <div className={styles.wrapper}>
                     <div className={styles.head} >
-                        <h1>APOORV<br />
-                            The techno-cultural festival of IIIT Kottayam
+                        <h1>Apoorv, IIITk&apos;s 
+                            techno-cultural fest, 
                         </h1>
                     </div>
                     <div className={styles.body}>
@@ -105,7 +105,6 @@ const Description = () => {
                             A festival of many, filled with insightful
                             workshops to sensational performances, intense hackathons to thought provoking debates, Apoorv
                             offers an unparalleled opportunity to exhibit your skills and ignite your creative spark!
-                            <br></br><br></br>
                         </p>
                     </div>
                     <CollisionButton>
@@ -114,6 +113,7 @@ const Description = () => {
                 </div>
                 <div className={styles.img}>
                     <Image
+                        className={styles.image}
                         src={abc}
                         alt={"image"}
                         fill
