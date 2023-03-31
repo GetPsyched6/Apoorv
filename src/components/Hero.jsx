@@ -122,9 +122,9 @@ const Hero = () => {
                     <h1>APOORV</h1>
                     <h1>The first of it&apos;s kind</h1>
                 </div>
-                <p>A fest that celebrates both the innumerous shades of our culture<br />
-                    and the bluey horizons of technology with a tint of<br />
-                    literature in it too</p>
+                <p>A fest that celebrates both the innumerous shades of our culture
+                    and the bluey horizons of technology with sparks of
+                    literature as well.</p>
                 <div className={styles.buttonGroup}>
                     <CollisionButton style={{ marginTop: "1rem", marginBottom: "1rem", padding: "0.5rem" }}>Register Here!</CollisionButton>
                 </div>

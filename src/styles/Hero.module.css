@@ -115,6 +115,7 @@
     font-size: 1.35rem;
     line-height: 1.5;
     margin-top: 20px;
+    padding-inline: 1rem;
     /* display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,6 +124,7 @@
 
 .content p{
     margin: 10px 0px;
+    max-width: 52ch;
 }
 
 .head {
@@ -154,8 +156,9 @@
     }
 
     .content {
-        margin-top: 0px;
+        margin-block: 2rem;
         text-align: center;
+        padding-inline: 0;
     }
 
     .buttonGroup {
@@ -179,6 +182,9 @@
     .head {
         font-size: 1.25rem;
         line-height: 1.2;
+    }
+    .link {
+        font-size: 1rem;
     }
     
 }

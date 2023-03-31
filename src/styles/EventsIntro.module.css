@@ -9,14 +9,14 @@
 } */
 
 .intro {
-    /* background-image: url("../assets/EventsPage/comp1.png"); */
+    background-image: url("../assets/EventsPage/comp1.jpg");
     min-height: 100vh;
-    /* filter: brightness(0.9); */
+    filter: brightness(0.9);
     background-size: cover;
-    background-image:linear-gradient(160deg, rgba(0,0,0,1), rgba(222,84,53,0) 60.71%), 
+    /* background-image:linear-gradient(160deg, rgba(0,0,0,1), rgba(222,84,53,0) 60.71%), 
     linear-gradient(217deg, rgba(222,84,53,1), rgba(96,45,110,0.4) 80.71%),
                 linear-gradient(232deg, rgba(96,45,110,1), rgba(221,72,42,0) 100.71%), 
-                linear-gradient(186deg, rgba(0,0,0,1), rgba(0,0,0,1) 30.71%);
+                linear-gradient(186deg, rgba(0,0,0,1), rgba(0,0,0,1) 30.71%); */
     background-repeat: no-repeat;
     display: flex;
     /* animation-name: ani;

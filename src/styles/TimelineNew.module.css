@@ -245,6 +245,10 @@
         display: none;
     }
 
+    .title {
+        font-size: 4rem;
+    }
+
     .timelineMobile {
         display: flex;
         flex-direction: column;
